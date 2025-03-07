@@ -1,0 +1,79 @@
+/* Sidebar Styles */
+.sidebar {
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #444;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-info button {
+    margin-left: 10px;
+  }
+  
+  /* Dashboard Content Styles */
+  .dashboard-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .widgets {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Widget Styles */
+  .widget {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+  }
+  
+  .widget h3 {
+    margin: 0;
+  }
+  
+  .widget p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
